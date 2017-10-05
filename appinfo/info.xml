@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>tally</id>
+    <name>Tally</name>
+    <summary>Grocery, shopping and more...</summary>
+    <description><![CDATA[# Heading
+This is a place holder.]]></description>
+    <licence>agpl</licence>
+    <author mail="thomas-sell@gmx.de" >Thomas Sell</author>
+    <version>0.0.1</version>
+    <namespace>Tally</namespace>
+    <category>organization</category>
+    <bugs>https://github.com/sellth/tally/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Tally</name>
+            <route>tally.page.index</route>
+        </navigation>
+    </navigations>
+</info>
